@@ -37,77 +37,94 @@ class prop_graph:
         # Execute SQL query and load the results into a DataFrame
         query = "SELECT * FROM post"
         df = pd.read_sql(query, conn)
-        # import pdb; pdb.set_trace()
-        # Close the database connection
         conn.close()
 
-        all_reposts_and_time = []
+        if df.empty:
+            self.post_exist = False
+            return
 
-        # Collect repost data
-        for i in range(len(df)):
-            content = df.loc[i]["content"]
-            # There are some encoding issues with the data, use [0:10] to
-            # avoid them
-            if self.post_exist is False and self.source_post_content[
-                    0:10] in content:
+        # Find the source post (original post without original_post_id)
+        source_posts = df[df['original_post_id'].isnull()]
+        source_post = None
+
+        # Find the source post that matches our content
+        for _, post in source_posts.iterrows():
+            if self.source_post_content[0:10] in str(post['content']):
+                source_post = post
                 self.post_exist = True
-                self.root_id = df.loc[i]["user_id"]
-            if "repost from" in content and (self.source_post_content[0:10]
-                                             in content):
-                repost_history = content.split(". original_post: ")[:-1]
-                repost_time = df.loc[i]["created_at"]
-                all_reposts_and_time.append((repost_history, repost_time))
+                self.root_id = str(post['user_id'])
+                break
 
-        # Build the graph
-        # Given data
-        data = all_reposts_and_time
-        # Get the start time
-        # start_time =  df.loc[df["content"]==
-        # self.source_post_content]["created_at"].item()
-        start_time = 0
-        # Now start time is int, representing minutes
-        # start_time = datetime.strptime(start_time, '%Y-%m-%d %H:%M:%S.%f')
+        if not self.post_exist:
+            return
 
         # Create a directed graph
         self.G = nx.DiGraph()
 
-        first_flag = 1
-        # Extract edges from the data and add them to the graph
-        for reposts, timestamp in data:
-            # timestamp = datetime.strptime(
-            #     timestamp_str, '%Y-%m-%d %H:%M:%S.%f')
-            time_diff = timestamp - start_time
-            for repost in reposts:
-                repost_info = repost.split(" repost from ")
-                user = repost_info[0]
-                original_user = repost_info[1]
+        # Add root node with timestamp 0
+        self.G.add_node(self.root_id, timestamp=0)
 
-                if first_flag:
-                    # Get the root node corresponding to the source_post
-                    self.root_id = original_user
-                    first_flag = 0
-                    # Add a timestamp attribute for the root node, value is 0
-                    if original_user not in self.G:
-                        self.G.add_node(original_user, timestamp=0)
+        # Create mapping from post_id to user_id and timestamp
+        post_to_user = {}
+        post_to_time = {}
+        user_to_time = {}
 
-                # Add a timestamp attribute for other nodes, value is
-                # time_diff in minutes
-                if user not in self.G:
-                    self.G.add_node(user, timestamp=time_diff)
-                    # print(f"user {user}, timestamp:{time_diff}")
+        start_time = source_post['created_at']
 
-                self.G.add_edge(original_user, user)
+        for _, row in df.iterrows():
+            post_id = row['post_id']
+            user_id = str(row['user_id'])
+            created_at = row['created_at']
+
+            post_to_user[post_id] = user_id
+            post_to_time[post_id] = created_at
+
+            # Calculate time difference from source post
+            time_diff = created_at - start_time
+
+            # Store the earliest time for each user
+            if user_id not in user_to_time:
+                user_to_time[user_id] = time_diff
+            else:
+                user_to_time[user_id] = min(user_to_time[user_id], time_diff)
+
+        # Build the graph by connecting reposts to their original posts
+        for _, row in df.iterrows():
+            original_post_id = row['original_post_id']
+            current_user = str(row['user_id'])
+            current_time = row['created_at']
+
+            # Skip if this is the original post
+            if pd.isnull(original_post_id):
+                continue
+
+            # Find the user who posted the original post
+            if original_post_id in post_to_user:
+                original_user = post_to_user[original_post_id]
+
+                # Add current user node if not exists
+                if current_user not in self.G:
+                    time_diff = current_time - start_time
+                    self.G.add_node(current_user, timestamp=time_diff)
+
+                # Add original user node if not exists
+                if original_user not in self.G:
+                    original_time = post_to_time[original_post_id]
+                    time_diff = original_time - start_time
+                    self.G.add_node(original_user, timestamp=time_diff)
+
+                # Add edge from original user to current user
+                self.G.add_edge(original_user, current_user)
 
         # Get the start and end timestamps of propagation
         self.start_timestamp = 0
         timestamps = nx.get_node_attributes(self.G, "timestamp")
         try:
-            self.end_timestamp = max(timestamps.values()) + 3
+            self.end_timestamp = max(timestamps.values()) + 3 if timestamps else 3
         except Exception as e:
             print(self.source_post_content)
             print(f"ERROR: {e}, may be caused by empty repost path")
             print(f"the simulation db is empty: {not self.post_exist}")
-            print("Length of repost path:", len(all_reposts_and_time))
 
         # Calculate propagation graph depth, scale, maximum width
         # (max_breadth), and total structural virality

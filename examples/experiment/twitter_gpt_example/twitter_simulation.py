@@ -107,6 +107,7 @@ async def running(
         model = ModelFactory.create(
             model_platform=ModelPlatformType.OPENAI,
             model_type=ModelType(inference_configs["model_type"]),
+            url="http://yunwu.ai/v1"
         )
 
     try:
@@ -148,6 +149,17 @@ async def running(
         for node_id, agent in agent_graph.get_agents():
             if agent.user_info.is_controllable is False:
                 agent_ac_prob = random.random()
+                # 确保active_threshold存在，如果不存在则创建默认值
+                if "active_threshold" not in agent.user_info.profile["other_info"]:
+                    agent.user_info.profile["other_info"]["active_threshold"] = [0.1] * 24
+                    social_log.warning(f"为代理 {node_id} 创建了默认的active_threshold值")
+                # 确保profile和其他必要的字段存在
+                if not hasattr(agent.user_info, 'profile') or agent.user_info.profile is None:
+                    agent.user_info.profile = {"other_info": {}}
+                
+                if "other_info" not in agent.user_info.profile:
+                    agent.user_info.profile["other_info"] = {}
+                
                 threshold = agent.user_info.profile["other_info"][
                     "active_threshold"][int(simulation_time_hour % 24)]
                 if agent_ac_prob < threshold:
