@@ -72,7 +72,6 @@ DATA_DIR = os.path.join(
 DEFAULT_DB_PATH = ":memory:"
 DEFAULT_CSV_PATH = os.path.join(DATA_DIR, "False_Business_0.csv")
 
-
 async def running(
     db_path: str | None = DEFAULT_DB_PATH,
     csv_path: str | None = DEFAULT_CSV_PATH,
