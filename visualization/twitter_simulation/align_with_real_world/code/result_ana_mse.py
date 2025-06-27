@@ -182,4 +182,4 @@ def plot_rmse(db_folders: List, db_types: List):
 
 
 if __name__ == "__main__":
-    plot_rmse(db_folders=["yaml_gpt"], db_types=["OASIS", "Real"])
+    plot_rmse(db_folders=["yaml_200"], db_types=["OASIS", "Real"])

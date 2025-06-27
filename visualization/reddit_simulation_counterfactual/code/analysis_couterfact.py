@@ -27,8 +27,8 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 
 # 数据库文件列表
 db_files = [
-    'couterfact_up_100.db', 'couterfact_cnotrol_100.db',
-    'couterfact_down_100.db'
+    'counterfactual_100_up.db', 'counterfactual_100_control.db',
+    'counterfactual_100_down.db'
 ]
 
 # 存储每个数据库的结果
@@ -39,7 +39,7 @@ async def fetch_gpt_score(session, prompt, time_step, post_content,
                           comment_content):
     try:
         response = await session.post(
-            "https://api.openai.com/v1/chat/completions",
+            "https://yunwu.ai/v1/chat/completions",
             headers={"Authorization": f"Bearer {openai.api_key}"},
             json={
                 "model":
@@ -52,18 +52,47 @@ async def fetch_gpt_score(session, prompt, time_step, post_content,
                     "content": prompt
                 }],
                 "max_tokens":
-                10,
+                50,  # 增加max_tokens以确保完整响应
                 "temperature":
                 0.5
             })
+        
+        if response.status != 200:
+            print(f"HTTP Error: {response.status}")
+            return None
+            
         response_json = await response.json()
-        gpt_output = json.loads(
-            response_json['choices'][0]['message']['content'].strip())
+        
+        if 'choices' not in response_json or not response_json['choices']:
+            print(f"No choices in response: {response_json}")
+            return None
+            
+        gpt_response = response_json['choices'][0]['message']['content'].strip()
+        print(f"GPT Response: {gpt_response}")  # 调试信息
+        
+        # 尝试解析JSON
+        try:
+            gpt_output = json.loads(gpt_response)
+        except json.JSONDecodeError:
+            # 如果不是JSON格式，尝试提取数字
+            import re
+            score_match = re.search(r'"score":\s*(\d+)', gpt_response)
+            if score_match:
+                score = int(score_match.group(1))
+                if 1 <= score <= 10:
+                    print(f"Extracted score from text: {score}")
+                    return score
+            print(f"Failed to parse JSON or extract score from: {gpt_response}")
+            return None
+            
         score = gpt_output.get("score")
         if isinstance(score, int) and 1 <= score <= 10:
             print(f"time_stamp: {time_step}, post: {post_content}, comment: "
                   f"{comment_content}, score: {score}")
             return score
+        else:
+            print(f"Invalid score: {score}")
+            return None
     except Exception as e:
         print(f"Error fetching GPT score: {e}")
     return None
@@ -73,16 +102,39 @@ async def process_database(db_file):
     conn = sqlite3.connect(db_file)
     cursor = conn.cursor()
 
-    cursor.execute("SELECT user_id, created_at, info FROM trace WHERE "
-                   "action = 'create_comment'")
+    cursor.execute("SELECT user_id, created_at, info FROM trace WHERE action = 'create_comment'")
     trace_records = cursor.fetchall()
 
-    time_step_dict = {}
+    # 先收集所有记录并按时间排序
+    time_records = []
     for record in trace_records:
+        print(f"Processing record: {record}")
         info = json.loads(record[2])
-        time_stamp = info.get('time_stamp')
-        if time_stamp:
-            time_step = int(time_stamp)
+        created_at = record[1]  # 从created_at字段获取时间
+        
+        try:
+            # 解析时间戳
+            from datetime import datetime
+            timestamp = datetime.fromisoformat(created_at.replace('Z', '+00:00') if created_at.endswith('Z') else created_at)
+            time_records.append((timestamp, info))
+        except Exception as e:
+            print(f"Error processing timestamp for record {record}: {e}")
+            continue
+    
+    # 按时间排序
+    time_records.sort(key=lambda x: x[0])
+    
+    # 将评论分组到30个时间步中
+    time_step_dict = {}
+    total_records = len(time_records)
+    num_timesteps = 30  # 根据YAML配置文件设置
+    
+    if total_records > 0:
+        records_per_step = max(1, total_records // num_timesteps)
+        
+        for i, (timestamp, info) in enumerate(time_records):
+            # 将记录分配到对应的时间步
+            time_step = min(i // records_per_step, num_timesteps - 1)
             if time_step not in time_step_dict:
                 time_step_dict[time_step] = []
             time_step_dict[time_step].append(info)

@@ -1,0 +1,152 @@
+[
+  {
+    "realname": "Ethan Montgomery",
+    "username": "ethan_infp_it",
+    "bio": "Exploring the intersections of technology and business | INFP | IT Professional",
+    "persona": "Ethan Montgomery is a 41-year-old IT professional who is passionate about using technology to drive business innovation. As an INFP personality type, he values creativity, individuality, and making meaningful connections. In his free time, Ethan enjoys reading about the latest trends in Information Technology and Business, and he loves discussing and sharing his insights with like-minded individuals.",
+    "age": 41,
+    "gender": "male",
+    "mbti": "INFP",
+    "country": "Canada",
+    "profession": "Information Technology",
+    "interested_topics": [
+      "Information Technology",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Alex Kim",
+    "username": "techsavvyalex",
+    "bio": "Science, Technology, Engineering & Mathematics enthusiast | IT and Business aficionado | Always learning and growing",
+    "persona": "Alex Kim is a 23-year-old ISFJ male who is deeply passionate about Science, Technology, Engineering & Mathematics. He is known for his keen interest in Information Technology and Business topics. Alex is a proactive learner, always striving to expand his knowledge and skills in his field of expertise.",
+    "age": 23,
+    "gender": "male",
+    "mbti": "ISFJ",
+    "country": "US",
+    "profession": "Science, Technology, Engineering & Mathematics",
+    "interested_topics": [
+      "Information Technology",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Sophie Lawson",
+    "username": "CultureBizEducator",
+    "bio": "Passionate about culture, business, and education. Let's learn and grow together! 🌟",
+    "persona": "Sophie Lawson is a 33-year-old ENFJ educator with a strong interest in culture, society, and business. She believes in the power of education to inspire positive change and enjoys combining her passion for different cultures with entrepreneurial insights. Sophie is always seeking new opportunities to teach, learn, and connect with others who share her enthusiasm for personal and professional development.",
+    "age": 33,
+    "gender": "female",
+    "mbti": "ENFJ",
+    "country": "US",
+    "profession": "Education & Training",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Jack Thompson",
+    "username": "jackthomp68",
+    "bio": "A lover of culture, society, and all things news. Proud member of the hospitality & tourism industry.",
+    "persona": "Jack is a seasoned professional in the hospitality & tourism sector, with a keen interest in understanding different cultures and societal dynamics. He enjoys staying updated on general news to broaden his knowledge and engage in meaningful discussions. Despite being in his late 60s, Jack is tech-savvy and uses social media as a platform to connect with like-minded individuals and share his experiences in the industry.",
+    "age": 68,
+    "gender": "male",
+    "mbti": "ESFJ",
+    "country": "Australia",
+    "profession": "Hospitality & Tourism",
+    "interested_topics": [
+      "Culture & Society",
+      "General News"
+    ]
+  },
+  {
+    "realname": "Nathan Liu",
+    "username": "TheINTPAnalyst",
+    "bio": "Economic analyst and news enthusiast | INTP | Government & Public Administration | Learning and growing every day",
+    "persona": "Nathan Liu is a 20-year-old economic analyst working in the field of Government & Public Administration. With a keen interest in Economics and keeping up with General News, he is always seeking to expand his knowledge and analytical skills. As an INTP personality type, he approaches information with a logical and objective mindset, striving to understand complex systems and trends. Nathan enjoys diving deep into economic analyses and staying informed about current events, always looking for new perspectives and insights in the world of finance and policy.",
+    "age": 20,
+    "gender": "male",
+    "mbti": "INTP",
+    "country": "US",
+    "profession": "Government & Public Administration",
+    "interested_topics": [
+      "Economics",
+      "General News"
+    ]
+  },
+  {
+    "realname": "Ethan Park",
+    "username": "ethan_architect",
+    "bio": "Passionate architect exploring the world of economics and culture. Building dreams one structure at a time. #Architecture",
+    "persona": "Ethan Park is an 18-year-old ESTP male with a strong interest in Architecture & Construction. He is a creative thinker who enjoys exploring new ideas and designing innovative structures. In his free time, Ethan delves into topics like Economics and Culture & Society to broaden his knowledge and create well-rounded designs. Follow along as he shares his architectural journey and insights on societal influences on architecture.",
+    "age": 18,
+    "gender": "male",
+    "mbti": "ESTP",
+    "country": "Germany",
+    "profession": "Architecture & Construction",
+    "interested_topics": [
+      "Economics",
+      "Culture & Society"
+    ]
+  },
+  {
+    "realname": "Sophia Chang",
+    "username": "mindfulfinancier",
+    "bio": "Exploring the world of finance with a mindful perspective 🌿 | INTJ | Economist and News Enthusiast | Let's crunch numbers and stay informed together! 📈📰",
+    "persona": "Sophia is a seasoned finance professional with a strong interest in economics and staying up-to-date with the latest news. As an INTJ, she approaches financial matters with a strategic mindset and attention to detail. In her free time, she enjoys analyzing market trends, discussing economic policies, and diving into general news to broaden her knowledge.",
+    "age": 41,
+    "gender": "female",
+    "mbti": "INTJ",
+    "country": "Argentina",
+    "profession": "Finance",
+    "interested_topics": [
+      "Economics",
+      "General News"
+    ]
+  },
+  {
+    "realname": "Maxwell Greene",
+    "username": "mrgreene_biz",
+    "bio": "Explorer of the business world | INTP | Enthusiast of economics | Business student",
+    "persona": "Maxwell Greene is a 20-year-old male currently studying Business Management & Administration. With an INTP personality type, he thrives on exploring the depths of the business world. Maxwell is passionate about economics and constantly seeks to understand the intricate workings of the market. As a dedicated business student, he is always eager to learn and grow in his field.",
+    "age": 20,
+    "gender": "male",
+    "mbti": "INTP",
+    "country": "Malaysia",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "James Morton",
+    "username": "jimmy_politicsbiz",
+    "bio": "Passionate about politics and business. Working in Government & Public Administration. Let's discuss and engage in meaningful conversations.",
+    "persona": "James Morton is a 45-year-old ENFP male working in the field of Government & Public Administration. He is a dynamic and outgoing individual who thrives on social interactions and discussions. With a keen interest in politics and business, James is always up-to-date with the latest news and developments in these fields. He enjoys engaging in debates, sharing his views, and learning from others. Connect with him to delve into thought-provoking conversations on various political and business topics.",
+    "age": 45,
+    "gender": "male",
+    "mbti": "ENFP",
+    "country": "Nigeria",
+    "profession": "Government & Public Administration",
+    "interested_topics": [
+      "Politics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Liam Parker",
+    "username": "TechEnthusiastLiam",
+    "bio": "🚀 Young STEM enthusiast 🌟 | Curious about Information Technology 💻 and Business 📈 | Dreaming big in the tech world 🌎",
+    "persona": "Liam is an 11-year-old boy with a passion for Science, Technology, Engineering, and Mathematics. He is a curious and creative individual who loves to explore the world of Information Technology and Business. Liam dreams of making a significant impact in the tech industry and is always eager to learn and discover new things. He enjoys coding, tinkering with gadgets, and reading about the latest tech trends. In his free time, Liam loves to attend STEM workshops and competitions to further enhance his skills and knowledge.",
+    "age": 11,
+    "gender": "male",
+    "mbti": "ENFP",
+    "country": "Malaysia",
+    "profession": "Science, Technology, Engineering & Mathematics",
+    "interested_topics": [
+      "Information Technology",
+      "Business"
+    ]
+  }
+]

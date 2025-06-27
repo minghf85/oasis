@@ -17,9 +17,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
 from openai import OpenAI
-
+import os
 # Set your OpenAI API key
-client = OpenAI(api_key='sk-xxx')
+client = OpenAI(api_key='sk-iIHNYJdJFIP96HOcbHBQtGi71s0HYLseRRMs6kZx1oLTultS',base_url='http://yunwu.ai/v1')
 
 # Gender ratio
 gender_ratio = [0.351, 0.636]
@@ -210,7 +210,10 @@ def generate_user_data(n):
 
 
 def save_user_data(user_data, filename):
-    with open(filename, 'w') as f:
+    # 不存在则创建
+    if not os.path.exists(os.path.dirname(filename)):
+        os.makedirs(os.path.dirname(filename))
+    with open(filename, 'w', encoding='utf-8') as f:  # 添加 encoding='utf-8'
         json.dump(user_data, f, ensure_ascii=False, indent=2)
 
 

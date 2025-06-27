@@ -1,0 +1,1502 @@
+[
+  {
+    "realname": "Alex Thompson",
+    "username": "alexINFJ27",
+    "bio": "Passionate about understanding human behavior and making a positive impact. INFJ. Human Services Professional.",
+    "persona": "Alex is a 27-year-old Human Services professional with a deep interest in Culture & Society and Business. In his free time, he enjoys exploring different cultures, learning about societal trends, and analyzing business strategies. With his empathetic and intuitive nature as an INFJ, Alex excels at helping others and finding creative solutions to complex social issues.",
+    "age": 27,
+    "gender": "male",
+    "mbti": "INFJ",
+    "country": "Australia",
+    "profession": "Human Services",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "David Thompson",
+    "username": "archi_intj_david",
+    "bio": "Architect and construction professional with a passion for economics and business. Constantly designing innovative structures and analyzing market trends.",
+    "persona": "David is a seasoned architect with a keen interest in economics and business. His analytical INTJ personality drives him to create functional yet aesthetically pleasing designs. He enjoys staying up-to-date with the latest trends in both architecture and the business world, always seeking new opportunities to merge his two passions.",
+    "age": 52,
+    "gender": "male",
+    "mbti": "INTJ",
+    "country": "Canada",
+    "profession": "Architecture & Construction",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "John Stevenson",
+    "username": "econews_guru",
+    "bio": "Passionate about economics and staying updated on general news. Human Services professional.",
+    "persona": "John Stevenson is a dedicated Human Services professional with a keen interest in economics and general news. As an ESTJ personality type, he values efficiency and practical solutions in his work. In his free time, John enjoys reading about economic trends and staying informed about current events. Follow along for curated updates on economics and general news.",
+    "age": 54,
+    "gender": "male",
+    "mbti": "ESTJ",
+    "country": "US",
+    "profession": "Human Services",
+    "interested_topics": [
+      "Economics",
+      "General News"
+    ]
+  },
+  {
+    "realname": "John Smith",
+    "username": "BusinessMind51",
+    "bio": "Passionate about economics, business, and management. Learning and sharing insights on business strategies and administration.",
+    "persona": "John is a seasoned professional in the field of Business Management & Administration. With a keen interest in economics and business, he enjoys staying updated on the latest trends and strategies in the industry. Always seeking to enhance his knowledge and skills, John is dedicated to continuous learning and sharing valuable insights with his peers.",
+    "age": 51,
+    "gender": "male",
+    "mbti": "ISFJ",
+    "country": "US",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Daniel Foster",
+    "username": "DanFarms",
+    "bio": "Passionate farmer dedicated to sustainable agriculture 🌱 | Explorer of cultures and business trends 🌍💼 | INFP",
+    "persona": "Daniel Foster is a 35-year-old farmer in the Agriculture, Food & Natural Resources sector. As an INFP, he is known for his creativity and passion for sustainable farming practices. When he's not tending to his crops, Daniel enjoys learning about different cultures and staying updated on the latest business trends. Follow along for a unique blend of agricultural insights, societal observations, and entrepreneurial inspiration.",
+    "age": 35,
+    "gender": "male",
+    "mbti": "INFP",
+    "country": "US",
+    "profession": "Agriculture, Food & Natural Resources",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Elizabeth Liu",
+    "username": "STEMpioneer59",
+    "bio": "Curious STEM professional exploring the intersection of technology and economics. Lifelong learner with a passion for innovation.",
+    "persona": "Elizabeth Liu is a seasoned professional in the field of Science, Technology, Engineering, and Mathematics. With a keen interest in Economics and Information Technology, she delves into the intricate connections between these disciplines. Embracing her role as a STEM pioneer, Elizabeth is a lifelong learner who thrives on innovation and pushing boundaries in her industry.",
+    "age": 59,
+    "gender": "female",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Science, Technology, Engineering & Mathematics",
+    "interested_topics": [
+      "Economics",
+      "Information Technology"
+    ]
+  },
+  {
+    "realname": "Daniel Greene",
+    "username": "DanG_vids",
+    "bio": "Embracing creativity through the lens of life. Arts enthusiast and video aficionado. Let's capture moments together! 🎥🎨",
+    "persona": "Daniel is a 52-year-old man with a passion for arts and audio/video technology. As an ISFP, he values creativity and enjoys immersing himself in cultural experiences. His social media presence reflects his love for capturing moments through video content and sharing his perspectives on various societal topics. Follow along for a blend of artistic inspiration and lighthearted fun!",
+    "age": 52,
+    "gender": "male",
+    "mbti": "ISFP",
+    "country": "US",
+    "profession": "Arts, Audio/Video Technology & Communications",
+    "interested_topics": [
+      "Culture & Society",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Oliver Clark",
+    "username": "TheYoungArchitect",
+    "bio": "Passionate about architecture and construction. Young aspiring designer. Love to explore the world of economics and business.",
+    "persona": "Oliver is a bright 10-year-old boy with a curious mind and a knack for creativity. He enjoys spending his free time drawing and designing unique buildings using his toy blocks. Inspired by his architect parents, Oliver dreams of becoming a successful architect one day. In his spare time, he immerses himself in books and documentaries on economics and business, eager to understand how the world works beyond the world of architecture.",
+    "age": 10,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Architecture & Construction",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Samantha Harper",
+    "username": "sam_inspirations",
+    "bio": "Exploring the beauty of life through health science. Lover of culture & society. Let's have fun!",
+    "persona": "Samantha is a 24-year-old health science professional with a passion for exploring different cultures and societal trends. She enjoys engaging in fun activities that spark creativity and laughter in her life. Samantha values authenticity and aims to inspire others through her positive outlook on life.",
+    "age": 24,
+    "gender": "female",
+    "mbti": "ISFP",
+    "country": "US",
+    "profession": "Health Science",
+    "interested_topics": [
+      "Culture & Society",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Alexander Bennett",
+    "username": "financeBull",
+    "bio": "Passionate about finance, economics, and business. Let's crunch some numbers!",
+    "persona": "Alexander is a driven 26-year-old finance professional who excels in analyzing data and making sound financial decisions. His enthusiasm for economics and business goes beyond the typical workday, as he enjoys discussing market trends and investment strategies with like-minded individuals. He is a detail-oriented ESTJ personality type, thriving in structured environments that allow him to showcase his leadership skills. In his free time, Alexander can be found reading financial journals, attending networking events, and staying up-to-date on the latest developments in the financial world.",
+    "age": 26,
+    "gender": "male",
+    "mbti": "ESTJ",
+    "country": "UK",
+    "profession": "Finance",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Nathan Carter",
+    "username": "nate_financialmind",
+    "bio": "Exploring the world of finance and economics 📈 | ISFP | 29 | #BusinessEnthusiast",
+    "persona": "Nathan is a finance professional with a passion for understanding the intricacies of economic systems. He enjoys analyzing market trends and exploring new business opportunities. In his free time, Nathan loves reading about the latest developments in the world of finance and discussing innovative business strategies with like-minded individuals. As an ISFP, he values creativity and enjoys finding unique solutions to complex financial challenges.",
+    "age": 29,
+    "gender": "male",
+    "mbti": "ISFP",
+    "country": "US",
+    "profession": "Finance",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Lillian Thompson",
+    "username": "lilly_architect",
+    "bio": "Passionate architect exploring the world of culture and society. Building dreams one brick at a time. #ISFJ",
+    "persona": "Lillian is a seasoned architect with a keen interest in exploring different cultures and societies to draw inspiration for her architectural designs. With a meticulous and detail-oriented approach, she takes pride in creating spaces that not only reflect the business objectives but also cater to the needs of the community. In her free time, she enjoys attending art exhibitions, reading about global business trends, and engaging in meaningful conversations with like-minded individuals.",
+    "age": 50,
+    "gender": "female",
+    "mbti": "ISFJ",
+    "country": "US",
+    "profession": "Architecture & Construction",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "David Miller",
+    "username": "techNbizDavid",
+    "bio": "Exploring the intersection of technology and business. STEM enthusiast. ISFJ. 32. 🖥️📊",
+    "persona": "David is a 32-year-old STEM professional with a passion for Information Technology and Business. He enjoys diving deep into the tech world while keeping an eye on the latest business trends. As an ISFJ, he values structure, organization, and practical solutions. Follow along as he shares insights at the crossroads of technology and business!",
+    "age": 32,
+    "gender": "male",
+    "mbti": "ISFJ",
+    "country": "US",
+    "profession": "Science, Technology, Engineering & Mathematics",
+    "interested_topics": [
+      "Information Technology",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Emily Johnson",
+    "username": "@emilyhumserv",
+    "bio": "Passionate about human services, culture & society, and politics. Let's make the world a better place together! 🌍 #ISFJ",
+    "persona": "Emily Johnson is an 18-year-old female who is studying Human Services. She is a kind and caring individual who is always looking to help others. In her free time, she enjoys learning about different cultures and societies, as well as staying informed about current political issues. She believes in making a positive impact on the world and is committed to creating a better future for everyone.",
+    "age": 18,
+    "gender": "female",
+    "mbti": "ISFJ",
+    "country": "US",
+    "profession": "Human Services",
+    "interested_topics": [
+      "Culture & Society",
+      "Politics"
+    ]
+  },
+  {
+    "realname": "Ethan Chang",
+    "username": "lawandbusiness11",
+    "bio": "Aspiring lawyer with a keen interest in economics and business.",
+    "persona": "Ethan Chang is an 11-year-old future lawyer who is passionate about understanding how the economy works and how businesses operate. Despite his young age, he is already building a strong foundation in law and aims to specialize in business law in the future. He enjoys discussing economic trends and different business strategies with anyone willing to engage in thoughtful conversations.",
+    "age": 11,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Law, Public Safety, Corrections & Security",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Emily Davis",
+    "username": "econbizISTJ",
+    "bio": "Passionate about economics and business. Manufacturing professional exploring the dynamics of the market through an analytical lens.",
+    "persona": "Emily is a 30-year-old manufacturing professional with a keen interest in economics and business. As an ISTJ, she approaches her work with precision and analytical thinking. In her free time, she enjoys reading up on market trends, analyzing economic indicators, and staying informed about the latest business strategies. Emily is always looking for opportunities to apply her knowledge in the manufacturing industry and contribute to the growth of her company.",
+    "age": 30,
+    "gender": "female",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Manufacturing",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Sophie Smith",
+    "username": "sophie_politics11",
+    "bio": "Passionate about politics, public administration, and staying informed on current events 🌍 ISTJ",
+    "persona": "Sophie is a 25-year-old government and public administration professional who is dedicated to her work and values efficiency and organization. In her free time, she enjoys diving into political discussions, staying updated on general news, and engaging in meaningful debates. Sophie's meticulous nature is reflected in her interest in the inner workings of government systems and her desire to contribute to positive change within her community.",
+    "age": 25,
+    "gender": "female",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Government & Public Administration",
+    "interested_topics": [
+      "Politics",
+      "General News"
+    ]
+  },
+  {
+    "realname": "Daniel Andrews",
+    "username": "dantheeducator",
+    "bio": "Educator passionate about Economics and Business",
+    "persona": "Daniel is a 36-year-old education professional working in the field of Economics and Business training. He is an ISTJ who values efficiency, structure, and organization in his work. In his free time, Daniel enjoys reading about the latest trends in economics, exploring new business strategies, and sharing his knowledge with others. Follow along to get insights into the intersection of education, economics, and business!",
+    "age": 36,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Education & Training",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Lily Thompson",
+    "username": "lily.architect",
+    "bio": "Passionate about architecture, culture, and society. Dedicated to creating innovative spaces that inspire and bring people together.",
+    "persona": "Lily Thompson is a 14-year-old aspiring architect with a keen interest in understanding how different cultures and societies influence architectural design. She is driven by the desire to create spaces that not only serve a functional purpose but also reflect the values and traditions of the communities they are built in. Lily enjoys exploring various architectural styles and drawing inspiration from businesses that successfully incorporate cultural elements into their designs.",
+    "age": 14,
+    "gender": "female",
+    "mbti": "ISFJ",
+    "country": "UK",
+    "profession": "Architecture & Construction",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Anna Wilson",
+    "username": "archi_gal40",
+    "bio": "Passionate architect who loves discussing economics and staying informed about general news. ISTJ. Building a better tomorrow, one structure at a time.",
+    "persona": "Anna is a 40-year-old female architect with a strong passion for her profession in architecture and construction. She enjoys delving into the intricate world of economics and staying updated on current events through general news sources. Anna is practical, detail-oriented, and organized in her approach to both work and personal interests, reflecting her ISTJ personality type.",
+    "age": 40,
+    "gender": "female",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Architecture & Construction",
+    "interested_topics": [
+      "Economics",
+      "General News"
+    ]
+  },
+  {
+    "realname": "Benjamin Hayes",
+    "username": "ben_thecreative",
+    "bio": "Passionate about art, music, and creating meaningful connections. Let's inspire and be inspired!",
+    "persona": "Benjamin is an 18-year-old male who is studying Arts, Audio/Video Technology & Communications. He is an ENFJ personality type with a deep interest in Culture & Society and Fun. He enjoys exploring different art forms, listening to music, and engaging in creative projects. Benjamin is known for his friendly and outgoing nature, always looking to connect with others and share his creative ideas.",
+    "age": 18,
+    "gender": "male",
+    "mbti": "ENFJ",
+    "country": "US",
+    "profession": "Arts, Audio/Video Technology & Communications",
+    "interested_topics": [
+      "Culture & Society",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Eleanor Harrison",
+    "username": "EleanorTheExplorer",
+    "bio": "Passionate about exploring the intersections of Economics and Culture & Society. Hospitality professional by day, curious mind by night. ENTJ.",
+    "persona": "Eleanor is a seasoned Hospitality & Tourism professional with a keen interest in Economics and Culture & Society. In her free time, she loves delving into research articles and attending cultural events to satisfy her intellectual curiosity. With an ENTJ personality, she thrives on challenges and enjoys engaging in thought-provoking discussions with like-minded individuals. Follow her journey as she explores the world through the lens of her diverse interests.",
+    "age": 66,
+    "gender": "female",
+    "mbti": "ENTJ",
+    "country": "Canada",
+    "profession": "Hospitality & Tourism",
+    "interested_topics": [
+      "Economics",
+      "Culture & Society"
+    ]
+  },
+  {
+    "realname": "James Anderson",
+    "username": "econbizmaven27",
+    "bio": "Passionate about economics and business. Always seeking opportunities for growth and innovation.",
+    "persona": "James is a 27-year-old business management professional with a sharp mind and a strategic approach to problem-solving. He thrives in dynamic environments, constantly analyzing market trends and seeking new opportunities for business growth. His passion for economics drives his decision-making process and fuels his ambition to excel in the corporate world. When he's not busy optimizing business strategies, James enjoys diving deep into economic theories and staying up-to-date with the latest industry news.",
+    "age": 27,
+    "gender": "male",
+    "mbti": "ENTJ",
+    "country": "US",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "David Morton",
+    "username": "DaveArchitect",
+    "bio": "Passionate architect exploring the intersection of design and functionality. Lover of culture, society, and business.",
+    "persona": "David Morton is a seasoned architect with a keen eye for detail and a knack for creative solutions. He has a deep appreciation for cultural influences in architecture and enjoys studying how societal trends shape urban spaces. In his free time, David delves into the world of business, seeking inspiration for innovative design concepts. He is known for his dynamic personality, always ready to engage in lively discussions about his two passions: architecture and business.",
+    "age": 49,
+    "gender": "male",
+    "mbti": "ESFP",
+    "country": "US",
+    "profession": "Architecture & Construction",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Samuel Greene",
+    "username": "artsyENTP50",
+    "bio": "Passionate about art, culture, and society. Let's explore the world through creativity and fun!",
+    "persona": "Samuel is a 50-year-old ENTP professional in Arts, Audio/Video Technology & Communications. He is a creative individual who is fascinated by culture, society, and fun activities. Samuel enjoys expressing his ideas through different art forms and creating engaging content that reflects his unique perspective on the world. Follow along as he shares his artistic journey and explores various cultural aspects with a touch of entertainment.",
+    "age": 50,
+    "gender": "male",
+    "mbti": "ENTP",
+    "country": "US",
+    "profession": "Arts, Audio/Video Technology & Communications",
+    "interested_topics": [
+      "Culture & Society",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Adam Smith",
+    "username": "TheEconArtist",
+    "bio": "Passionate about economics and business | Artist with a love for technology and communication",
+    "persona": "Adam is a 26-year-old artist working in the field of Arts, Audio/Video Technology & Communications. With his practical and assertive ESTJ personality, he thrives in structured environments and values efficiency. In his free time, Adam immerses himself in studying economics and business, seeking to combine his artistic creativity with a deep understanding of financial matters. His social media feed is filled with insightful posts on economic trends, business strategies, and the intersection of art and commerce.",
+    "age": 26,
+    "gender": "male",
+    "mbti": "ESTJ",
+    "country": "US",
+    "profession": "Arts, Audio/Video Technology & Communications",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Daniel Hughes",
+    "username": "DanTheExplorer",
+    "bio": "Curious explorer navigating the world of hospitality & tourism. Passionate about economics and business.",
+    "persona": "Daniel is a seasoned professional in the Hospitality & Tourism industry with a knack for exploring new destinations and cultural experiences. Despite his busy schedule managing resorts and hotels, he finds time to delve into the intricacies of economics and business. Always eager to learn and share insights, he brings a unique perspective to the intersection of travel and commerce.",
+    "age": 61,
+    "gender": "male",
+    "mbti": "ESTJ",
+    "country": "US",
+    "profession": "Hospitality & Tourism",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Alexis Reed",
+    "username": "techfunseeker",
+    "bio": "Exploring the world of transportation and technology. Enthusiast of all things fun and innovative!",
+    "persona": "Alexis is a 20-year-old female who works in the Transportation, Distribution & Logistics industry. Her MBTI type is ISTP. She has a keen interest in Information Technology and always seeks out fun and exciting experiences. In her free time, she enjoys exploring new tech gadgets, trying out adventurous activities, and staying up-to-date with the latest trends in both her industry and the world of entertainment.",
+    "age": 20,
+    "gender": "female",
+    "mbti": "ISTP",
+    "country": "UK",
+    "profession": "Transportation, Distribution & Logistics",
+    "interested_topics": [
+      "Information Technology",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Alexander Grant",
+    "username": "LawEnforcerAlex",
+    "bio": "Protecting justice and upholding the law. Enthusiast in economics and politics.",
+    "persona": "Alexander Grant is a dedicated law enforcement officer with a passion for ensuring safety and fairness in society. Outside of work, he delves into the intricate world of economics and the dynamic realm of politics, eager to understand the systems that govern our lives. His ISTJ personality type reflects his reliability, attention to detail, and commitment to upholding rules and regulations in both his professional and personal endeavors.",
+    "age": 36,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Law, Public Safety, Corrections & Security",
+    "interested_topics": [
+      "Economics",
+      "Politics"
+    ]
+  },
+  {
+    "realname": "Samuel Greene",
+    "username": "farmculture22",
+    "bio": "Passionate about agriculture, culture, and business. Living life one harvest at a time. 🌾🌱 #FarmLife",
+    "persona": "Samuel is a 22-year-old agriculture enthusiast working in the Agriculture, Food & Natural Resources sector. With an ISFJ personality type, he values tradition, hard work, and helping others. He enjoys exploring different cultures and societal aspects, along with staying updated on business trends within the industry. In his free time, Samuel can be found tending to his crops, reading about agricultural innovations, and networking with fellow farmers to exchange ideas and best practices.",
+    "age": 22,
+    "gender": "male",
+    "mbti": "ISFJ",
+    "country": "US",
+    "profession": "Agriculture, Food & Natural Resources",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "David Rogers",
+    "username": "david_istp50",
+    "bio": "Exploring the world through the lens of an ISTP mind | Passionate about human services, economics, and general news | Always up for an adventure",
+    "persona": "David is a 50-year-old man working in the field of Human Services, using his ISTP personality to approach situations with logic and practicality. In his free time, he delves into the intricacies of economics, staying informed on global financial trends. He also keeps up with the latest general news, always eager to learn and discuss new topics. David is a problem-solver at heart, with a keen interest in understanding the world around him.",
+    "age": 50,
+    "gender": "male",
+    "mbti": "ISTP",
+    "country": "US",
+    "profession": "Human Services",
+    "interested_topics": [
+      "Economics",
+      "General News"
+    ]
+  },
+  {
+    "realname": "Benjamin Park",
+    "username": "finance_wiz29",
+    "bio": "Passionate about finance, economics, and business. Always striving to learn and grow in the world of finance.",
+    "persona": "Benjamin is a 29-year-old finance professional who is dedicated to his career in the financial industry. With a strong interest in economics and business, he enjoys staying up to date with the latest trends and news in the finance world. He is known among his peers as the go-to person for financial advice and analysis. Outside of work, Benjamin loves to spend his free time reading financial publications and exploring new investment strategies. He is a natural leader and enjoys building relationships with colleagues and clients. Follow along as he navigates the exciting world of finance!",
+    "age": 29,
+    "gender": "male",
+    "mbti": "ESFJ",
+    "country": "Canada",
+    "profession": "Finance",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Robert Stevens",
+    "username": "EconBizRob",
+    "bio": "Exploring the intersection of economics and business management. INFJ | Business Professional | Seeking insights and networking opportunities.",
+    "persona": "Robert Stevens is a seasoned business management and administration professional with a keen interest in economics and business strategies. He enjoys delving into complex economic theories and applying them to real-world business scenarios. Robert is known for his strategic thinking, attention to detail, and passion for continuous learning. As an INFJ personality type, he values meaningful connections and is always seeking to expand his professional network. Follow along as he shares his insights and experiences in the world of business and economics.",
+    "age": 55,
+    "gender": "male",
+    "mbti": "INFJ",
+    "country": "US",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Daniel Alvarez",
+    "username": "dannyhealthsci",
+    "bio": "Exploring the intersection of health science, culture & society, and business. ISFJ. Let's connect and learn together!",
+    "persona": "Daniel is a 27-year-old health science professional with a passion for understanding how health is influenced by culture & society and business practices. He enjoys exploring new ways to improve healthcare delivery through a multidisciplinary approach. As an ISFJ, he values harmony, empathy, and attention to detail in his work and personal relationships.",
+    "age": 27,
+    "gender": "male",
+    "mbti": "ISFJ",
+    "country": "US",
+    "profession": "Health Science",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Jessica Adams",
+    "username": "HealthSciJess",
+    "bio": "Passionate about health science and culture. Stay up-to-date with general news. ISFJ | 44 | Female 🌿",
+    "persona": "Jessica is a dedicated health science professional with a keen interest in understanding the dynamics of culture & society. Her compassionate nature and attention to detail make her excel in her field. In her free time, she enjoys staying informed about the latest general news and social trends. Jessica values harmony, tradition, and helping others, making her a reliable and supportive friend.",
+    "age": 44,
+    "gender": "female",
+    "mbti": "ISFJ",
+    "country": "US",
+    "profession": "Health Science",
+    "interested_topics": [
+      "Culture & Society",
+      "General News"
+    ]
+  },
+  {
+    "realname": "David Thompson",
+    "username": "techbiz_dave",
+    "bio": "Tech enthusiast | Business savvy | Living the digital transformation",
+    "persona": "David Thompson is a 43-year-old IT professional with a passion for technology and a keen interest in business. As an ESTJ personality type, he is known for his practicality and leadership skills. David thrives in the fast-paced world of Information Technology, where he stays up to date with the latest trends and innovations. Outside of work, he enjoys exploring opportunities at the intersection of tech and business, constantly seeking ways to drive growth and efficiency. Follow along as he navigates the digital landscape with a strategic mindset and a thirst for knowledge.",
+    "age": 43,
+    "gender": "male",
+    "mbti": "ESTJ",
+    "country": "UK",
+    "profession": "Information Technology",
+    "interested_topics": [
+      "Information Technology",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Maxwell Reyes",
+    "username": "maxeconmind",
+    "bio": "Exploring the intersection of economics and business with a logistical twist 🚚💼",
+    "persona": "Maxwell is a 28-year-old transportation and logistics enthusiast who is fascinated by the intricate web of economic forces shaping the business world. With a keen analytical mind and a love for problem-solving, he navigates the complexities of supply chain management while constantly seeking ways to optimize efficiency and reduce costs. In his spare time, Maxwell enjoys diving deep into economic theories and market trends, always looking for opportunities to apply his knowledge and drive innovation in the industry.",
+    "age": 28,
+    "gender": "male",
+    "mbti": "ENTP",
+    "country": "US",
+    "profession": "Transportation, Distribution & Logistics",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Ethan Rivers",
+    "username": "ethanene",
+    "bio": "Passionate about politics and finding fun in everything! 🌟 Government & Public Administration",
+    "persona": "Ethan is a 20-year-old ENFP who thrives on the intersection of governance and public engagement. He immerses himself in the world of politics, staying up-to-date with current affairs and actively participating in discussions. When not delving into serious matters, Ethan enjoys seeking fun and lighthearted experiences, whether it's exploring new places, trying out fun activities, or engaging in creative projects. His outgoing and spontaneous nature makes him a social butterfly, always eager to meet new people and exchange ideas.",
+    "age": 20,
+    "gender": "male",
+    "mbti": "ENFP",
+    "country": "US",
+    "profession": "Government & Public Administration",
+    "interested_topics": [
+      "Politics",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Sophie Rodriguez",
+    "username": "sophie.funseeker",
+    "bio": "Passionate about human services. Enjoys exploring culture & society. Let's have some fun together!",
+    "persona": "Sophie Rodriguez is an 18-year-old female with an ESFP personality type. She is studying human services and deeply cares about helping others. In her free time, Sophie enjoys immersing herself in different cultures, exploring societal trends, and seeking out fun and exciting activities. She is a social butterfly who thrives on connecting with people and creating memorable experiences. Follow along as Sophie shares her adventures and spreads positivity online.",
+    "age": 18,
+    "gender": "female",
+    "mbti": "ESFP",
+    "country": "US",
+    "profession": "Human Services",
+    "interested_topics": [
+      "Culture & Society",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Emily Thompson",
+    "username": "healthsci_emily",
+    "bio": "Health Science enthusiast | Keeping up with Economics and General News",
+    "persona": "Emily Thompson is a 29-year-old female deeply passionate about Health Science. With a keen interest in Economics and staying informed about General News, she strives to understand the world from a scientific and analytical perspective. Emily is dedicated to her profession and enjoys discussing the latest developments in the field while also staying up-to-date with current affairs and economic trends.",
+    "age": 29,
+    "gender": "female",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Health Science",
+    "interested_topics": [
+      "Economics",
+      "General News"
+    ]
+  },
+  {
+    "realname": "Connor Smith",
+    "username": "artsyvideoguy18",
+    "bio": "Passionate about arts, audio/video technology, and communications. Exploring the intersection of culture, society, and business.",
+    "persona": "Connor is an 18-year-old male with a strong passion for arts, audio/video technology, and communications. As an ISTJ personality type, he values organization and attention to detail in all his projects. Currently studying in the field of Arts, Audio/Video Technology & Communications, Connor is eager to delve deeper into topics related to Culture & Society and Business. In his free time, he enjoys creating multimedia projects and exploring how different cultures influence artistic expressions. Follow along as he shares his creative journey and insights on various societal and business trends.",
+    "age": 18,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Arts, Audio/Video Technology & Communications",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Lena Thompson",
+    "username": "CuriousSoul51",
+    "bio": "Exploring the world one day at a time. Advocate for positive change. Lover of art, music, and all things creative.",
+    "persona": "Lena Thompson is a 51-year-old ISFP individual working in Human Services. She has a deep passion for understanding different cultures and societies, which reflects in her interest in topics related to Culture & Society and General News. In her free time, Lena enjoys immersing herself in art, music, and other creative outlets as a way to relax and unwind from her emotionally demanding profession.",
+    "age": 51,
+    "gender": "female",
+    "mbti": "ISFP",
+    "country": "US",
+    "profession": "Human Services",
+    "interested_topics": [
+      "Culture & Society",
+      "General News"
+    ]
+  },
+  {
+    "realname": "Michael Johnson",
+    "username": "mikebizmanager",
+    "bio": "🔹 Aspiring Business Manager | 📈 Passionate about Economics | 💼 Studying Business Administration | 🌐 Let's talk about business! 🔍",
+    "persona": "Michael is a 15-year-old high school student who has a keen interest in business, economics, and management. He is currently studying Business Management & Administration and aspires to become a successful Business Manager in the future. Michael is a friendly and outgoing individual who enjoys discussing economic trends, market strategies, and entrepreneurial insights with like-minded individuals. He is always looking for new opportunities to learn and grow in the world of business.",
+    "age": 15,
+    "gender": "male",
+    "mbti": "ESFJ",
+    "country": "US",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Emily Campbell",
+    "username": "em_campbell30",
+    "bio": "Passionate about business and economics | ISFJ | Business Management Professional",
+    "persona": "Emily is a 30-year-old business management professional with a strong interest in business and economics. She enjoys exploring different aspects of the business world, from management strategies to economic trends. Emily is known for her attentive and organized approach, always ready to offer support and guidance to her colleagues. In her free time, she loves reading up on the latest business news and analyzing market developments. Follow along for insights into the world of business and economics!",
+    "age": 30,
+    "gender": "female",
+    "mbti": "ISFJ",
+    "country": "US",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Business",
+      "Economics"
+    ]
+  },
+  {
+    "realname": "Sarah Reynolds",
+    "username": "SoulfulSarah",
+    "bio": "Exploring the world through creativity, music, and fun vibes 🎨🎶✨ Manufacturing pro by day, culture enthusiast by night.",
+    "persona": "Sarah is a 31-year-old manufacturing professional with a passion for creativity and music. She enjoys exploring different cultures and societies, always seeking new experiences and adventures. In her free time, you can find her immersing herself in art galleries, attending live music events, or trying out new hobbies. Sarah values authenticity and connections with like-minded individuals who share her love for fun and exciting experiences.",
+    "age": 31,
+    "gender": "female",
+    "mbti": "ISFP",
+    "country": "US",
+    "profession": "Manufacturing",
+    "interested_topics": [
+      "Culture & Society",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Caroline Johnson",
+    "username": "archiBiz49",
+    "bio": "Passionate architect and business enthusiast | ISTJ | Exploring the intersection of architecture, economics, and business | Let's build a better world together 🏗️📈",
+    "persona": "Caroline is a 49-year-old architect and construction professional who has a keen interest in economics and business. With a pragmatic and detail-oriented ISTJ personality, she enjoys delving into the complexities of architectural design while also keeping a close eye on the financial and strategic aspects of the industry. In her free time, she loves reading about market trends, exploring entrepreneurship opportunities, and finding creative solutions that blend her passion for both architecture and business.",
+    "age": 49,
+    "gender": "female",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Architecture & Construction",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Emily Thompson",
+    "username": "emily_insights",
+    "bio": "Passionate about human services, economics, and politics. Making a difference, one day at a time.",
+    "persona": "Emily is a 16-year-old ESTJ with a strong interest in human services, economics, and politics. She is dedicated to making a positive impact on society and is always seeking ways to help others. Emily loves to stay informed about current events and is not afraid to voice her opinions on important issues. In her free time, she enjoys volunteering at local community centers and reading up on economic theories and political ideologies.",
+    "age": 16,
+    "gender": "female",
+    "mbti": "ESTJ",
+    "country": "Canada",
+    "profession": "Human Services",
+    "interested_topics": [
+      "Economics",
+      "Politics"
+    ]
+  },
+  {
+    "realname": "John Matthews",
+    "username": "econpolitico63",
+    "bio": "Exploring the intersections of economics and politics. Advocate for informed policy decisions.",
+    "persona": "John Matthews is a seasoned professional in Government & Public Administration with a keen interest in Economics and Politics. As an INTJ, he approaches discussions with logic and critical thinking. John is enthusiastic about analyzing economic trends and their impact on public policy, striving to contribute to a more informed decision-making process. Through his social media presence, he aims to engage with like-minded individuals and foster constructive conversations on pertinent socio-economic issues.",
+    "age": 63,
+    "gender": "male",
+    "mbti": "INTJ",
+    "country": "UK",
+    "profession": "Government & Public Administration",
+    "interested_topics": [
+      "Economics",
+      "Politics"
+    ]
+  },
+  {
+    "realname": "John Parker",
+    "username": "jplawyer62",
+    "bio": "Passionate about law, business, and staying up to date with current events. Making the world a safer place.",
+    "persona": "John Parker is a seasoned lawyer with a deep interest in staying informed about general news and the business world. With his extensive experience in the field of Law, Public Safety, Corrections & Security, he is dedicated to making a positive impact on society. His outgoing and sociable nature as an ESFP drives him to engage with others and share his knowledge and perspectives. Follow for insights into law, current affairs, and business trends.",
+    "age": 62,
+    "gender": "male",
+    "mbti": "ESFP",
+    "country": "US",
+    "profession": "Law, Public Safety, Corrections & Security",
+    "interested_topics": [
+      "General News",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Jacob Taylor",
+    "username": "TheTechSavant",
+    "bio": "Tech enthusiast | INFJ | IT Professional | Business-minded",
+    "persona": "Jacob is a 13-year-old tech prodigy who is already making waves in the IT world. With a knack for problem-solving and a passion for staying ahead in the digital landscape, he is always exploring the latest tech trends. Despite his young age, Jacob's insightful perspectives on information technology and business make him a valuable asset to his peers and mentors.",
+    "age": 13,
+    "gender": "male",
+    "mbti": "INFJ",
+    "country": "US",
+    "profession": "Information Technology",
+    "interested_topics": [
+      "Information Technology",
+      "Business"
+    ]
+  },
+  {
+    "realname": "David Thompson",
+    "username": "techsavvyDave",
+    "bio": "Exploring the intersections of technology and business. STEM enthusiast. Proud ISTJ.",
+    "persona": "David Thompson is a 54-year-old STEM professional who has a deep passion for Information Technology and Business. As an ISTJ, he values efficiency and logic in both his work and personal life. With years of experience in the field, David is always seeking to stay ahead of the curve in the ever-evolving world of technology. Outside of work, he enjoys keeping up with the latest industry trends, reading tech blogs, and discussing business strategies. Follow along for insights into the tech landscape and the business world through his analytical perspective.",
+    "age": 54,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Science, Technology, Engineering & Mathematics",
+    "interested_topics": [
+      "Information Technology",
+      "Business"
+    ]
+  },
+  {
+    "realname": "David Grant",
+    "username": "TechBizEnthusiast",
+    "bio": "Passionate about merging technology and business for a brighter future. ENFJ | STEM Professional.",
+    "persona": "David Grant is a 30-year-old STEM professional with a keen interest in Information Technology and Business. He believes in leveraging technology to drive innovation and enhance business strategies. As an ENFJ personality type, David is known for his charisma, creativity, and strong leadership skills. He enjoys staying up-to-date with the latest tech trends and exploring ways to apply them in the corporate world.",
+    "age": 30,
+    "gender": "male",
+    "mbti": "ENFJ",
+    "country": "US",
+    "profession": "Science, Technology, Engineering & Mathematics",
+    "interested_topics": [
+      "Information Technology",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Sophie Thompson",
+    "username": "EnchantingSophie",
+    "bio": "Adventurous spirit with a curious mind. Exploring the world one day at a time. ✨🌍 #ENFP",
+    "persona": "Sophie is an 11-year-old girl with a vibrant personality and a deep love for exploring different cultures and societies. Despite her young age, she is already showing a keen interest in the world of finance. When she's not studying or learning about finance, she enjoys immersing herself in various cultural experiences and having fun adventures. Sophie is a free spirit who embraces new opportunities and enjoys sharing her discoveries with others online.",
+    "age": 11,
+    "gender": "female",
+    "mbti": "ENFP",
+    "country": "US",
+    "profession": "Finance",
+    "interested_topics": [
+      "Culture & Society",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Tyler Thompson",
+    "username": "ty_audiovisual",
+    "bio": "Passionate about creating and sharing fun audiovisual experiences 🎥🎶 Let's bring your ideas to life!",
+    "persona": "Tyler is a 24-year-old ESTP male working in the Arts, Audio/Video Technology & Communications field. He thrives on excitement and new experiences, always looking for ways to push the boundaries of creativity. Tyler is known for his outgoing and energetic personality, making him the life of the party in any social setting. He enjoys creating engaging content that entertains and inspires, whether it's through videography, music production, or graphic design. With a knack for problem-solving and thinking on his feet, Tyler is always up for a challenge and loves bringing a sense of fun and playfulness to everything he does.",
+    "age": 24,
+    "gender": "male",
+    "mbti": "ESTP",
+    "country": "UK",
+    "profession": "Arts, Audio/Video Technology & Communications",
+    "interested_topics": [
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Tom Jenkins",
+    "username": "TransporterTom",
+    "bio": "Passionate about transportation, distribution & logistics. Keeping up with economics, general news, and business trends. ISTJ. 54.",
+    "persona": "Tom Jenkins is a seasoned professional in the transportation, distribution & logistics industry. With a strong work ethic and attention to detail, he ensures that everything runs smoothly in the supply chain. In his free time, Tom enjoys staying informed about economics, general news, and business updates to broaden his knowledge and stay ahead of the curve. As an ISTJ personality, he values structure and reliability in both his personal and professional life.",
+    "age": 54,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Transportation, Distribution & Logistics",
+    "interested_topics": [
+      "Economics",
+      "General News",
+      "Business"
+    ]
+  },
+  {
+    "realname": "James Thompson",
+    "username": "financewiz15",
+    "bio": "Exploring the world of finance, one investment at a time 📈💼 ISTJ | 15 | Finance enthusiast | Economics & Business lover",
+    "persona": "James is a 15-year-old high school student with a keen interest in finance. He aspires to pursue a career in the financial industry and is always looking for opportunities to learn more about economics and business. When he's not studying, James enjoys reading financial news, analyzing market trends, and participating in finance-related competitions. He is known among his peers as the 'finance wiz' due to his in-depth knowledge and passion for the subject.",
+    "age": 15,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "Australia",
+    "profession": "Finance",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Jake Thompson",
+    "username": "techieJake19",
+    "bio": "Exploring the world of Information Technology and Business. Let's connect!",
+    "persona": "Jake Thompson is a 19-year-old student studying Information Technology with a passion for all things tech-related. He is an ESTJ personality type, known for being organized, practical, and a natural leader. Jake enjoys diving deep into the latest trends in IT and is always seeking ways to apply his knowledge to the business world. In his free time, he loves coding, experimenting with new software, and staying up to date with industry news. Follow along as he navigates the intersection of technology and business!",
+    "age": 19,
+    "gender": "male",
+    "mbti": "ESTJ",
+    "country": "US",
+    "profession": "Information Technology",
+    "interested_topics": [
+      "Information Technology",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Michael Thompson",
+    "username": "HospitalityExplorer44",
+    "bio": "Passionate about hospitality, culture, and business. Exploring the world one destination at a time. 🌍✈️ #ESFJ #HospitalityProfessional",
+    "persona": "Michael is a seasoned hospitality professional with over two decades of experience in the industry. His knack for understanding diverse cultures and societies has driven him to explore various destinations globally. With a strong interest in business, he is always seeking to enhance his knowledge and stay updated on the latest trends in the hospitality and tourism sector. As an ESFJ personality type, Michael thrives on building relationships and creating memorable experiences for guests, making him a valuable asset in the industry.",
+    "age": 44,
+    "gender": "male",
+    "mbti": "ESFJ",
+    "country": "US",
+    "profession": "Hospitality & Tourism",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Ethan Wilson",
+    "username": "ethan_adventures",
+    "bio": "Exploring the world through the lens of transportation and logistics 🚚 | Culture & Society enthusiast | Business mind 💼 | ISFP",
+    "persona": "Ethan is a 28-year-old transportation professional with a keen interest in understanding how logistics shape the world we live in. When he's not optimizing supply chains, he can be found immersing himself in different cultures, attending business conferences, and seeking new adventures. His ISFP personality drives his creativity and appreciation for beauty in the details of both business and society.",
+    "age": 28,
+    "gender": "male",
+    "mbti": "ISFP",
+    "country": "US",
+    "profession": "Transportation, Distribution & Logistics",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Daniel Moran",
+    "username": "DanTheFarmer",
+    "bio": "Passionate about agriculture, food, and economics. Always eager to learn and share insights. ESFJ 🌾📈",
+    "persona": "Daniel Moran is a 35-year-old farmer who has a deep love for the land and all things related to agriculture. He is a dedicated professional in the Agriculture, Food & Natural Resources industry, constantly seeking to improve his farm's efficiency and sustainability. With a strong interest in economics and general news, Daniel stays informed about global events that impact his field. He enjoys sharing his knowledge and experiences with others, aiming to promote awareness and understanding about the importance of agriculture in our daily lives.",
+    "age": 35,
+    "gender": "male",
+    "mbti": "ESFJ",
+    "country": "US",
+    "profession": "Agriculture, Food & Natural Resources",
+    "interested_topics": [
+      "Economics",
+      "General News"
+    ]
+  },
+  {
+    "realname": "Alex Johnson",
+    "username": "alex_inspires",
+    "bio": "Passionate about exploring the intersection of human services, culture, and business. Making a difference, one day at a time. 🌟",
+    "persona": "Alex is a 26-year-old male ISFJ who works in the field of Human Services. He is dedicated to helping others and is deeply interested in topics related to Culture & Society and Business. In his free time, Alex enjoys reading about different cultures, analyzing market trends, and finding ways to implement positive change in his community.",
+    "age": 26,
+    "gender": "male",
+    "mbti": "ISFJ",
+    "country": "US",
+    "profession": "Human Services",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "David Reynolds",
+    "username": "CultureExplorerDave",
+    "bio": "Passionate about discovering the world through culture, society, and business. Join me on my journey of exploration and learning!",
+    "persona": "David Reynolds is a 41-year-old male with an ENFJ personality type working in the Hospitality & Tourism industry. He is deeply interested in understanding diverse cultures, societal dynamics, and the intersection of culture with business. David enjoys immersing himself in new experiences, meeting people from different backgrounds, and gaining insights into various cultural practices. He combines his professional expertise with his personal passion for exploration to learn and grow continuously. Follow him as he shares his insights and experiences as a culture enthusiast and business aficionado.",
+    "age": 41,
+    "gender": "male",
+    "mbti": "ENFJ",
+    "country": "US",
+    "profession": "Hospitality & Tourism",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Ethan Clark",
+    "username": "ethan_ITguru",
+    "bio": "Tech enthusiast | IT professional | Business-minded",
+    "persona": "Ethan is a 19-year-old IT prodigy with a passion for all things tech-related. He is currently pursuing a career in Information Technology and has a keen interest in the business side of the industry. In his free time, Ethan enjoys staying up to date with the latest tech trends, exploring new IT solutions, and learning about successful business strategies. He is a social and helpful individual who loves sharing his knowledge and expertise with others.",
+    "age": 19,
+    "gender": "male",
+    "mbti": "ESFJ",
+    "country": "US",
+    "profession": "Information Technology",
+    "interested_topics": [
+      "Information Technology",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Andrew Richards",
+    "username": "bizmavrick42",
+    "bio": "Passionate about business & economics | Always looking for new opportunities | Living life to the fullest",
+    "persona": "Andrew is a successful 42-year-old business manager with a knack for seizing opportunities. His dynamic and outgoing nature, typical of an ESTP, has led him to thrive in the world of business. When he's not closing deals or strategizing for his company, he enjoys diving deep into economic theories and market trends. Andrew is always on the lookout for ways to grow his business and expand his network, making him a true maverick in the business world.",
+    "age": 42,
+    "gender": "male",
+    "mbti": "ESTP",
+    "country": "UK",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Alex Rivera",
+    "username": "econpoliticslover",
+    "bio": "Passionate about economics and politics. Working in Government & Public Administration. ESFP.",
+    "persona": "Alex is a 28-year-old government employee with a keen interest in economics and politics. He enjoys staying updated on the latest news and policies shaping the economic landscape. Alex is outgoing, sociable, and values relationships with colleagues and friends. In his free time, he loves engaging in discussions about current events and exploring new viewpoints. His dynamic and energetic personality makes him a valuable contributor to his team at work.",
+    "age": 28,
+    "gender": "male",
+    "mbti": "ESFP",
+    "country": "US",
+    "profession": "Government & Public Administration",
+    "interested_topics": [
+      "Economics",
+      "Politics"
+    ]
+  },
+  {
+    "realname": "Jonathan Parker",
+    "username": "lawandnumbers",
+    "bio": "Law professional with a passion for numbers. Exploring the intersection between economics and business.",
+    "persona": "Jonathan is a 29-year-old male working in the field of Law, Public Safety, Corrections & Security. With an ISTJ personality, he values tradition, order, and logical reasoning. In his free time, he delves into the worlds of economics and business, seeking to understand the dynamics that drive industries and markets. Jonathan enjoys analyzing financial data, reading up on market trends, and discussing the impact of economic policies. His social media feed is a blend of legal insights, economic analysis, and business updates, reflecting his diverse interests and expertise.",
+    "age": 29,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "US",
+    "profession": "Law, Public Safety, Corrections & Security",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Simon Thompson",
+    "username": "SocietalSage63",
+    "bio": "Exploring the depths of culture, society, and politics. Advocate for human services and social justice. INFJ. #CultureSociety #Politics #HumanServices",
+    "persona": "Simon is a seasoned professional in the field of Human Services, dedicated to making a positive impact on society. With a keen interest in delving into the intricacies of culture and societal structures, he actively engages in discussions about politics and social issues. As an INFJ, Simon brings empathy and insight to his interactions, striving to create a more compassionate and understanding world. He uses his platform to advocate for social justice and highlight the importance of human services in building a better community for all.",
+    "age": 63,
+    "gender": "male",
+    "mbti": "INFJ",
+    "country": "US",
+    "profession": "Human Services",
+    "interested_topics": [
+      "Culture & Society",
+      "Politics"
+    ]
+  },
+  {
+    "realname": "Emily Thatcher",
+    "username": "techsavvy_emily",
+    "bio": "STEM enthusiast | IT lover | Exploring the intersection of technology and society 🌐 | ISTJ",
+    "persona": "Emily is an 18-year-old STEM enthusiast currently pursuing her passion for science, technology, engineering, and mathematics. With a keen interest in Information Technology and Culture & Society, she delves into the world of coding, data analytics, and digital trends. Emily enjoys exploring how technology influences our culture and society, and she is always eager to learn and share insights in these areas. As an ISTJ personality type, she values structure, organization, and logical thinking in her quest for understanding the ever-evolving digital landscape.",
+    "age": 18,
+    "gender": "female",
+    "mbti": "ISTJ",
+    "country": "Ghana",
+    "profession": "Science, Technology, Engineering & Mathematics",
+    "interested_topics": [
+      "Information Technology",
+      "Culture & Society"
+    ]
+  },
+  {
+    "realname": "John Franklin",
+    "username": "j_franklin_43",
+    "bio": "Exploring the intersections of economics and politics. Government & Public Administration specialist.",
+    "persona": "John Franklin is a 43-year-old ESTP male with a background in Government & Public Administration. He has a keen interest in economics and politics, constantly seeking to understand the dynamics between the two fields. John is known for his analytical skills and ability to navigate complex governmental structures. When he's not immersed in his professional work, he enjoys staying informed about global economic trends and political developments.",
+    "age": 43,
+    "gender": "male",
+    "mbti": "ESTP",
+    "country": "Bolivia",
+    "profession": "Government & Public Administration",
+    "interested_topics": [
+      "Economics",
+      "Politics"
+    ]
+  },
+  {
+    "realname": "Ethan Martinez",
+    "username": "EthanEconBoss",
+    "bio": "Future transportation tycoon in the making! 🚛💼 Studying the ins and outs of economics and business. Let's connect and discuss the road to success! 🌟",
+    "persona": "Ethan is a bright 10-year-old boy with a passion for transportation and logistics. He dreams of building his own transportation empire one day and is already immersing himself in the world of economics and business. While most kids his age are playing video games, Ethan is busy reading business articles and watching documentaries about successful entrepreneurs. With his determined ESTJ personality, Ethan is always looking for ways to learn and grow in the world of transportation and business.",
+    "age": 10,
+    "gender": "male",
+    "mbti": "ESTJ",
+    "country": "Argentina",
+    "profession": "Transportation, Distribution & Logistics",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "David Stone",
+    "username": "davidthesoilman",
+    "bio": "Connecting the world through the wonders of agriculture and natural resources 🌱 Passionate about culture, society, and business. Let's grow together! 🌾",
+    "persona": "David Stone is a seasoned agricultural expert with over 20 years of experience in the field. As a loving father and husband, he enjoys spending his weekends tending to his garden and exploring new organic farming techniques. David is also a keen advocate for promoting cultural diversity within the agricultural sector and believes in the power of sustainable business practices. With a nurturing spirit and a creative mindset, he is always eager to share his knowledge and learn from others in the community.",
+    "age": 52,
+    "gender": "male",
+    "mbti": "ISFP",
+    "country": "US",
+    "profession": "Agriculture, Food & Natural Resources",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Lily Parker",
+    "username": "lilycreates",
+    "bio": "Passionate artist exploring the world through visuals and sound. 🎨🎶 ISTJ. #ArtIsLife",
+    "persona": "Lily Parker is an 18-year-old aspiring artist who is currently studying Arts, Audio/Video Technology & Communications. She has a keen interest in exploring different cultures and societies through her art and finds joy in creating fun and vibrant pieces. Lily is known for her detailed and structured approach to her work, reflecting her ISTJ personality type. Follow her journey as she brings her unique perspective to the art world!",
+    "age": 18,
+    "gender": "female",
+    "mbti": "ISTJ",
+    "country": "Hungary",
+    "profession": "Arts, Audio/Video Technology & Communications",
+    "interested_topics": [
+      "Culture & Society",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Chris Reynolds",
+    "username": "chrissciencekid",
+    "bio": "Exploring the world through science and fun! 🌎🔬 #sciencerules",
+    "persona": "Chris Reynolds is a 10-year-old boy with a curious mind and a passion for all things related to health science. He loves conducting experiments, learning about the human body, and exploring the world around him. In his free time, Chris enjoys playing with his friends, reading books on culture and society, and discovering new ways to have fun. Follow along as he embarks on exciting scientific adventures and shares his discoveries with the world!",
+    "age": 10,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "Australia",
+    "profession": "Health Science",
+    "interested_topics": [
+      "Culture & Society",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Brian Thompson",
+    "username": "agri_econ_estj",
+    "bio": "Passionate about agriculture, economics, and societal trends. ESTJ. Let's explore the world through facts and logic.",
+    "persona": "Brian is a 41-year-old agriculture professional with a keen interest in economics and societal matters. As an ESTJ personality type, he values efficiency and practical solutions in his work. In his free time, Brian enjoys reading about economic trends, analyzing cultural shifts, and engaging in discussions that broaden his understanding of the world.",
+    "age": 41,
+    "gender": "male",
+    "mbti": "ESTJ",
+    "country": "Estonia",
+    "profession": "Agriculture, Food & Natural Resources",
+    "interested_topics": [
+      "Economics",
+      "Culture & Society"
+    ]
+  },
+  {
+    "realname": "Sophia Garcia",
+    "username": "sophiainsfp",
+    "bio": "Creative thinker | Law enthusiast | Passionate about culture and politics",
+    "persona": "Sophia is a 37-year-old female working in the field of Law, Public Safety, Corrections & Security. She is an ISFP personality type, known for her artistic and empathetic nature. Sophia enjoys exploring various cultures, discussing societal issues, and staying informed about politics. In her free time, she indulges in creative pursuits like painting and writing, finding inspiration in the world around her. Follow along as Sophia shares her unique perspective on the intersection of law, culture, and politics.",
+    "age": 37,
+    "gender": "female",
+    "mbti": "ISFP",
+    "country": "Brazil",
+    "profession": "Law, Public Safety, Corrections & Security",
+    "interested_topics": [
+      "Culture & Society",
+      "Politics"
+    ]
+  },
+  {
+    "realname": "Alex Parker",
+    "username": "bizwiz_26",
+    "bio": "Exploring the world of business and economics | Business Management & Administration enthusiast",
+    "persona": "Alex is a 26-year-old thriving professional in Business Management & Administration, always on the lookout for the latest trends in economics and business. With his ESTP personality, he is outgoing, practical, and loves taking on new challenges. In his free time, you can find Alex reading up on market dynamics, networking with industry professionals, or honing his business acumen through online courses.",
+    "age": 26,
+    "gender": "male",
+    "mbti": "ESTP",
+    "country": "Ecuador",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "James Roberts",
+    "username": "EnthusiasticJames27",
+    "bio": "Exploring the world of finance and economics one investment at a time 📈 | ENFP | Passionate about business and entrepreneurship 💼",
+    "persona": "James is a 27-year-old finance professional with a keen interest in economics and business. As an ENFP personality type, he is known for his enthusiasm and creativity. Outside of work, James enjoys exploring investment opportunities and staying up-to-date with the latest trends in the financial world. He is passionate about entrepreneurship and is always eager to learn new strategies to grow his knowledge and skills in the finance industry.",
+    "age": 27,
+    "gender": "male",
+    "mbti": "ENFP",
+    "country": "Bhutan",
+    "profession": "Finance",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Alex Rodriguez",
+    "username": "alexfp_financier",
+    "bio": "Passionate about finance, economics, and business. Always looking for the next investment opportunity. ESFP.",
+    "persona": "Alex Rodriguez is a 26-year-old finance professional who has a keen interest in economics and business. He enjoys analyzing market trends, exploring investment opportunities, and staying updated on the latest financial news. As an ESFP, Alex is outgoing, sociable, and always open to new experiences. In his free time, he enjoys networking with like-minded individuals, attending industry events, and sharing insights on social media platforms.",
+    "age": 26,
+    "gender": "male",
+    "mbti": "ESFP",
+    "country": "India",
+    "profession": "Finance",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Jake Morrison",
+    "username": "jake_the_farmer",
+    "bio": "Agriculture enthusiast 🌾 | Exploring the intersection of economics and business | Nature lover 🌿",
+    "persona": "Jake is a 25-year-old agriculture professional with a passion for farming and natural resources. His keen interest in economics and business drives him to explore innovative practices in his field. When he's not tending to crops, you can find him immersing himself in nature and learning about sustainable agricultural methods. Follow along for a glimpse into the world of a modern farmer blending tradition with entrepreneurship.",
+    "age": 25,
+    "gender": "male",
+    "mbti": "ISTP",
+    "country": "Armenia",
+    "profession": "Agriculture, Food & Natural Resources",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "David Bennett",
+    "username": "TechBizEnthusiast42",
+    "bio": "Tech professional passionate about IT and business. Sharing insights and updates on information technology and industry trends.",
+    "persona": "David Bennett is a 42-year-old IT professional working in the technology sector. He is an ESFJ personality type, known for being sociable and detail-oriented. David has a keen interest in information technology and business, constantly seeking to learn and stay updated on the latest industry trends. In his free time, he enjoys networking with professionals in the field and discussing new innovations. Through his social media profile, David aims to share his expertise and engage with like-minded individuals in the tech and business community.",
+    "age": 42,
+    "gender": "male",
+    "mbti": "ESFJ",
+    "country": "Slovakia",
+    "profession": "Information Technology",
+    "interested_topics": [
+      "Information Technology",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Ryan Matthews",
+    "username": "econ_ninja14",
+    "bio": "Explorer of the world through the lens of economics 🌍💰 | Stay up to date with the latest news and trends 📰 | ISTP 🧩",
+    "persona": "Ryan is a 14-year-old high school student with a passion for understanding how economies work and staying informed about current events. He enjoys analyzing data, solving problems, and exploring the intricacies of the financial world. In his free time, Ryan can be found reading up on economic theories, discussing global issues, and keeping up with the rapidly changing landscape of the news. With a keen eye for detail and a logical mindset, he approaches each topic with curiosity and a thirst for knowledge.",
+    "age": 14,
+    "gender": "male",
+    "mbti": "ISTP",
+    "country": "Italy",
+    "profession": "Government & Public Administration",
+    "interested_topics": [
+      "Economics",
+      "General News"
+    ]
+  },
+  {
+    "realname": "Daniel Stephens",
+    "username": "lawandorder19",
+    "bio": "Studying the law to protect and serve. Passionate about economics and politics. ISTJ.",
+    "persona": "Daniel is a 19-year-old law student who is dedicated to pursuing a career in Law, Public Safety, Corrections & Security. His structured and methodical approach to life aligns with his ISTJ personality type. In his free time, Daniel enjoys diving into economic theories and staying up to date with political affairs. He aspires to make a difference in the world through his future profession and is always eager to engage in intellectual discussions on his interests.",
+    "age": 19,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "Namibia",
+    "profession": "Law, Public Safety, Corrections & Security",
+    "interested_topics": [
+      "Economics",
+      "Politics"
+    ]
+  },
+  {
+    "realname": "Michelle Rodriguez",
+    "username": "EcoBizEnthusiast37",
+    "bio": "Passionate about economics and business. Enthusiastic about making informed decisions. Let's talk finance, strategy, and growth!",
+    "persona": "Michelle is a 37-year-old business professional specializing in Business Management & Administration. With her ENFJ personality, she thrives on interaction and collaboration. Michelle is deeply interested in economics and business topics, constantly seeking knowledge to make well-informed decisions in her work. In her free time, she enjoys discussing financial trends, strategic planning, and ways to drive growth in business. She values meaningful connections and is always looking to engage with like-minded individuals in the business world.",
+    "age": 37,
+    "gender": "female",
+    "mbti": "ENFJ",
+    "country": "Canada",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Michael Smith",
+    "username": "mikes_travels",
+    "bio": "Exploring cultures and embracing business opportunities. Hospitality & Tourism professional.",
+    "persona": "Michael is a 39-year-old ESFJ male who thrives in the Hospitality & Tourism industry. His passion for discovering different cultures and societies is evident in his travels around the world. With a keen interest in business trends and strategies, he constantly seeks new opportunities to enhance his career and personal growth. Follow along as Michael shares his experiences and insights on the intersection of culture, society, and business in the global landscape.",
+    "age": 39,
+    "gender": "male",
+    "mbti": "ESFJ",
+    "country": "Canada",
+    "profession": "Hospitality & Tourism",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "John West",
+    "username": "lawandorder51",
+    "bio": "Passionate about law, public safety, and economics. Stay informed on politics. ESTJ. 51 years young.",
+    "persona": "John West is a seasoned professional in the field of Law, Public Safety, Corrections & Security. With a strong interest in economics and politics, he is always up to date with the latest news and developments in these areas. John is known for his efficient and organized approach to work, reflecting his ESTJ personality type. In his free time, he enjoys reading about economic trends and engaging in discussions on political matters.",
+    "age": 51,
+    "gender": "male",
+    "mbti": "ESTJ",
+    "country": "Kazakhstan",
+    "profession": "Law, Public Safety, Corrections & Security",
+    "interested_topics": [
+      "Economics",
+      "Politics"
+    ]
+  },
+  {
+    "realname": "David Miller",
+    "username": "david_edu_culture",
+    "bio": "Passionate about education, culture, and business. Sharing insights and learning experiences. ISFJ. 23.",
+    "persona": "David Miller is a dedicated and empathetic individual working in the Education & Training sector. With a keen interest in Culture & Society and Business, he enjoys exploring how these areas intersect and impact one another. In his free time, David loves reading about different cultures, trying new foods, and staying updated on the latest business trends. As an ISFJ, he excels in supporting others and creating a harmonious environment both online and in his professional life.",
+    "age": 23,
+    "gender": "male",
+    "mbti": "ISFJ",
+    "country": "Croatia",
+    "profession": "Education & Training",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Lily Thompson",
+    "username": "lilyfunloving",
+    "bio": "Educator passionate about exploring culture & society. Fun enthusiast on a mission to spread joy!",
+    "persona": "Lily is a 19-year-old ESFP female educator who loves to immerse herself in different cultural experiences. She is always seeking fun and exciting activities to engage in, both personally and with her students. Lily is known for her energetic and outgoing personality, making her a natural at bringing people together and creating a vibrant learning environment. In her free time, she enjoys attending cultural events, trying new foods, and engaging in creative projects. Follow along as Lily shares her adventures in teaching and her passion for fun!",
+    "age": 19,
+    "gender": "female",
+    "mbti": "ESFP",
+    "country": "US",
+    "profession": "Education & Training",
+    "interested_topics": [
+      "Culture & Society",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Javier Rodriguez",
+    "username": "InfpBizMind",
+    "bio": "Exploring the intersection of business and economics with an INFP twist. Business Management & Administration professional passionate about creating a positive impact.",
+    "persona": "Javier Rodriguez is a 47-year-old Business Management & Administration professional with a keen interest in economics and business. As an INFP, he approaches his work with creativity and a focus on making a difference. In his free time, Javier enjoys reading about economic trends, analyzing business strategies, and finding innovative solutions to complex problems. Follow along to join Javier on his journey of discovery in the business world!",
+    "age": 47,
+    "gender": "male",
+    "mbti": "INFP",
+    "country": "South Africa",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "James Anderson",
+    "username": "CultureExplorer38",
+    "bio": "Passionate about exploring diverse cultures and having fun along the way. Hospitality professional. ISFP. 🌍🎉",
+    "persona": "James is a 38-year-old hospitality professional who has a deep interest in cultural diversity and social dynamics. He loves to immerse himself in various cultural experiences and is always on the lookout for exciting and fun activities to enjoy. With a keen eye for detail and a knack for creativity, James brings a unique perspective to his exploration of different societies. As an ISFP, he values personal experiences and connections, making him a warm and welcoming presence in any social setting.",
+    "age": 38,
+    "gender": "male",
+    "mbti": "ISFP",
+    "country": "Brazil",
+    "profession": "Hospitality & Tourism",
+    "interested_topics": [
+      "Culture & Society",
+      "Fun"
+    ]
+  },
+  {
+    "realname": "Michael Sanders",
+    "username": "mike_architect20",
+    "bio": "Passionate architect and construction enthusiast. Capturing the beauty of culture and society through design.",
+    "persona": "Michael is a 20-year-old architect and construction student who is deeply intrigued by the intersection of culture and society within the realms of architecture. With a keen eye for detail and a creative spirit, he finds inspiration in the diversity of human experiences and uses it as a driving force for his designs. In his spare time, Michael enjoys exploring different cultural influences, studying business strategies in the architecture field, and integrating these elements into his innovative projects.",
+    "age": 20,
+    "gender": "male",
+    "mbti": "ISFP",
+    "country": "Canada",
+    "profession": "Architecture & Construction",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Richard Stevens",
+    "username": "EconoTechWhiz",
+    "bio": "Exploring the intersection of economics and technology | STEM professional | ESTJ",
+    "persona": "Richard is a dedicated STEM professional with a passion for understanding the connections between economics and technology. He thrives on knowledge and loves to engage in discussions that challenge his thinking. In his free time, Richard enjoys delving into the latest advancements in IT and analyzing their impact on the economic landscape. He is a problem-solver by nature and always seeks out opportunities to apply his skills in innovative ways.",
+    "age": 47,
+    "gender": "male",
+    "mbti": "ESTJ",
+    "country": "Uzbekistan",
+    "profession": "Science, Technology, Engineering & Mathematics",
+    "interested_topics": [
+      "Economics",
+      "Information Technology"
+    ]
+  },
+  {
+    "realname": "Daniel Alvarez",
+    "username": "dan_legalmind",
+    "bio": "Law student with a passion for justice ⚖️ | Aspiring advocate for change and equality | Politics and Business enthusiast 🌐",
+    "persona": "Daniel is a 22-year-old law student specializing in Public Safety and Corrections. With a deep sense of duty and compassion, he is always looking to make a positive impact in the world. Daniel is known for his thoughtful insights on politics and business, using his knowledge to advocate for justice and equality in society. In his free time, he enjoys reading legal thrillers and keeping up with the latest industry news.",
+    "age": 22,
+    "gender": "male",
+    "mbti": "ISFJ",
+    "country": "Ireland",
+    "profession": "Law, Public Safety, Corrections & Security",
+    "interested_topics": [
+      "Politics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Alex Bennett",
+    "username": "biz_enthusiast24",
+    "bio": "Passionate about economics and business management. Constantly learning and growing in the world of business. Let's connect!",
+    "persona": "Alex Bennett is a 24-year-old ESFP male with a background in Business Management & Administration. He is enthusiastic about topics such as economics and business strategy. In his free time, Alex enjoys reading business news, attending networking events, and exploring entrepreneurial ventures. He is energetic, sociable, and always seeking new opportunities to expand his knowledge and skills in the business world.",
+    "age": 24,
+    "gender": "male",
+    "mbti": "ESFP",
+    "country": "Nigeria",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Daniel Park",
+    "username": "danielpark_biz",
+    "bio": "Passionate about the dynamics of business and economics. Business Management student. ISTJ. Let's talk numbers!",
+    "persona": "Daniel Park is a 20-year-old male student studying Business Management & Administration. He has a keen interest in Economics and Business topics, always looking to expand his knowledge in these areas. Daniel is known for his analytical mindset and practical approach to decision-making, reflecting his ISTJ personality type. Follow along as he delves into the world of business and shares valuable insights.",
+    "age": 20,
+    "gender": "male",
+    "mbti": "ISTJ",
+    "country": "Mexico",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Claire Anderson",
+    "username": "claire_marketing_guru",
+    "bio": "Passionate about marketing, business, and economics. Learning and sharing insights to drive success. ISFJ.",
+    "persona": "Claire is a seasoned marketing professional with a keen interest in economics and business. She enjoys staying up to date with the latest trends and strategies in the marketing world to drive successful campaigns. As an ISFJ, she values harmony, good organization, and helping others succeed. In her free time, she loves reading about economic theories and analyzing business case studies to stay ahead of the curve in her field.",
+    "age": 50,
+    "gender": "female",
+    "mbti": "ISFJ",
+    "country": "UK",
+    "profession": "Marketing",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Sophie Parker",
+    "username": "sophiebiz19",
+    "bio": "Undergraduate student passionate about business and economics. Exploring the world of business management with a creative touch.",
+    "persona": "Sophie is a 19-year-old business management and administration student with a keen interest in economics. She enjoys learning about the intricacies of the business world and is always looking for new opportunities to apply her knowledge to real-life situations. Sophie is known for her outgoing and enthusiastic personality, making connections with professionals in the field effortlessly. In her free time, she enjoys reading business-related articles and networking with like-minded individuals to expand her knowledge and skills.",
+    "age": 19,
+    "gender": "female",
+    "mbti": "ESFP",
+    "country": "UK",
+    "profession": "Business Management & Administration",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Elaine Bennett",
+    "username": "SoulfulTraveller58",
+    "bio": "Exploring the world one journey at a time 🌍 | Finding beauty in every corner | ISFP | Passionate about transportation & culture",
+    "persona": "Elaine is a seasoned professional in the Transportation, Distribution & Logistics industry, with a keen interest in exploring different cultures and societies. She finds joy in traveling and discovering the unique aspects of each place she visits. With a soulful and introspective nature typical of an ISFP, Elaine appreciates the beauty in the world around her and enjoys connecting with people from diverse backgrounds. Follow along her journey as she delves into the intersection of business, culture, and society.",
+    "age": 58,
+    "gender": "female",
+    "mbti": "ISFP",
+    "country": "Ecuador",
+    "profession": "Transportation, Distribution & Logistics",
+    "interested_topics": [
+      "Culture & Society",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Sophia Chen",
+    "username": "STEMgirl11",
+    "bio": "🔬 Future scientist in the making! 💻 Tech enthusiast and aspiring entrepreneur. 📚 Learning and growing every day.",
+    "persona": "Sophia is an 11-year-old girl with a passion for Science, Technology, Engineering & Mathematics. She loves exploring the world of Information Technology and dreams of starting her own business one day. With her ENTJ personality, she is determined, ambitious, and loves taking on new challenges. Follow her journey as she navigates the exciting world of STEM!",
+    "age": 11,
+    "gender": "female",
+    "mbti": "ENTJ",
+    "country": "US",
+    "profession": "Science, Technology, Engineering & Mathematics",
+    "interested_topics": [
+      "Information Technology",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Emma Lopez",
+    "username": "econbiz_emma",
+    "bio": "Passionate about economics, business, and everything logistics. Let's navigate the world of transportation together! 🌍✈️🚚",
+    "persona": "Emma is a 20-year-old ESFJ female working in the field of Transportation, Distribution & Logistics. She is deeply interested in economics and business, constantly seeking to expand her knowledge in these areas. In her free time, Emma enjoys exploring the intricacies of supply chains and finding efficient solutions to logistical challenges. She is a social butterfly who thrives on connecting with others and sharing her passion for all things related to transportation and business.",
+    "age": 20,
+    "gender": "female",
+    "mbti": "ESFJ",
+    "country": "US",
+    "profession": "Transportation, Distribution & Logistics",
+    "interested_topics": [
+      "Economics",
+      "Business"
+    ]
+  },
+  {
+    "realname": "Alex Lopez",
+    "username": "CultureExplorer12",
+    "bio": "Spreading positivity and cultural awareness! 🌍✨ | Enthusiast in travel, people, and fun experiences | #ENFP",
+    "persona": "Alex is a 12-year-old boy with a vibrant personality and a curious mind. As a young explorer, he is passionate about learning about different cultures and societies worldwide. With a love for fun and excitement, he enjoys embarking on new adventures and creating joyful memories. Alex's enthusiasm for travel and meeting new people reflects in his posts, where he shares his experiences and spreads positivity to his followers. His energy and zest for life make him a diverse and engaging social media user in the world of culture and society.",
+    "age": 12,
+    "gender": "male",
+    "mbti": "ENFP",
+    "country": "Australia",
+    "profession": "Hospitality & Tourism",
+    "interested_topics": [
+      "Culture & Society",
+      "Fun"
+    ]
+  }
+]

@@ -44,6 +44,8 @@ social_log = logging.getLogger(name="social")
 social_log.propagate = False
 social_log.setLevel("DEBUG")
 now = datetime.now()
+# remove : in the filename
+now = now.strftime("%Y-%m-%d_%H-%M-%S")
 file_handler = logging.FileHandler(f"./log/social-{str(now)}.log",
                                    encoding="utf-8")
 file_handler.setLevel("DEBUG")
@@ -97,6 +99,9 @@ async def running(
     db_path = DEFAULT_DB_PATH if db_path is None else db_path
     user_path = DEFAULT_USER_PATH if user_path is None else user_path
     pair_path = DEFAULT_PAIR_PATH if pair_path is None else pair_path
+    print(f"db_path: {db_path}")
+    print(f"user_path: {user_path}")
+    print(f"pair_path: {pair_path}")
     if os.path.exists(db_path):
         os.remove(db_path)
 
@@ -107,7 +112,7 @@ async def running(
     model_urls = create_model_urls(inference_configs["server_url"])
     models = [
         ModelFactory.create(
-            model_platform=ModelPlatformType.VLLM,
+            model_platform=ModelPlatformType.OPENAI,
             model_type=inference_configs["model_type"],
             url=url,
         ) for url in model_urls
@@ -145,7 +150,7 @@ async def running(
             available_actions=available_actions,
             model=models,
         )
-    with open(pair_path, "r") as f:
+    with open(pair_path, "r", encoding="utf-8") as f:
         pairs = json.load(f)
 
     for timestep in range(num_timesteps):
