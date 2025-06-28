@@ -63,7 +63,7 @@ What do you think Helen should do?
 """  # noqa: E501
 
         Baseurl = "https://yunwu.ai"  # Replace with your actual base URL
-        Skey = "sk-iIHNYJdJFIP96HOcbHBQtGi71s0HYLseRRMs6kZx1oLTultS"
+        Skey = "sk-xxx"
         payload = json.dumps({
             "model":
             "gpt-4o-mini",
