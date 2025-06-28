@@ -111,7 +111,7 @@ async def running(
         models = ModelFactory.create(
             model_platform=ModelPlatformType.OPENAI,
             model_type=ModelType(inference_configs["model_type"]),
-            api_key="sk-b5fa383c307e432a9210eccd18620f5e",
+            api_key="sk-xxx",
             url="https://api.deepseek.com/v1"
         )
     else:
