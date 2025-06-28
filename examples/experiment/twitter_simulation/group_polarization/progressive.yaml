@@ -1,0 +1,26 @@
+# 激进实验配置 - progressive.yaml
+---
+data:
+  db_path: data/db/group_polarization_progressive.db
+  csv_path: data/twitter_dataset/group_polarization/197_progressive.csv
+simulation:
+  num_timesteps: 80
+  clock_factor: 60
+  recsys_type: twhin-bert
+  available_actions:
+    - do_nothing
+    - repost
+    - like_post
+    - dislike_post
+    - follow
+    - create_comment
+    - like_comment
+    - like_comment
+inference:
+  model_type:  /root/autodl-tmp/Llama3uc/Lexi-Llama-3-8B-Uncensored_Q4_K_M.gguf
+  stop_tokens: [<|eot_id|>, <|end_of_text|>]
+  server_url:
+    - host: u73860-afee-f3708ade.bjb1.seetacloud.com
+      ports: [8443]
+    - host: u73860-b29e-85c29eec.bjb1.seetacloud.com
+      ports: [8443]

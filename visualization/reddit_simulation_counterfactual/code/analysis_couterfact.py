@@ -27,8 +27,8 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 
 # 数据库文件列表
 db_files = [
-    'counterfactual_100_up.db', 'counterfactual_100_control.db',
-    'counterfactual_100_down.db'
+    'counterfactual_1000_up.db', 'counterfactual_1000_control.db',
+    'counterfactual_1000_down.db'
 ]
 
 # 存储每个数据库的结果

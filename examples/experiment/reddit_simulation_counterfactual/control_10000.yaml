@@ -29,7 +29,10 @@ simulation:
     - do_nothing
     - create_comment
 inference:
-  model_type: gpt-3.5-turbo
+  model_type:  autodl-tmp/Llama3/Meta-Llama-3-8B-Instruct.Q4_K_M.gguf
+  stop_tokens: [<|eot_id|>, <|end_of_text|>]
   server_url:
-    - host: yunwu.ai
-      ports: [80]
+    - host: u73860-afee-f3708ade.bjb1.seetacloud.com
+      ports: [8443]
+    - host: u73860-b29e-85c29eec.bjb1.seetacloud.com
+      ports: [8443]

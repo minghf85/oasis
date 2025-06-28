@@ -83,7 +83,15 @@ async def running(
     csv_path = DEFAULT_CSV_PATH if csv_path is None else csv_path
     if os.path.exists(db_path):
         os.remove(db_path)
-
+    # 根据配置文件路径判断实验类型
+    if "baoshou" in csv_path:
+        experiment_type = "conservative"
+    elif "progressive" in csv_path:
+        experiment_type = "progressive"
+    
+    # 创建结果目录
+    result_dir = f"data/results/{experiment_type}"
+    os.makedirs(result_dir, exist_ok=True)
     if recsys_type == "reddit":
         start_time = datetime.now()
     else:
@@ -99,10 +107,12 @@ async def running(
                      refresh_rec_post_count=2,
                      max_rec_post_len=2,
                      following_post_count=3)
-    if inference_configs["model_type"][:3] == "gpt":
+    if inference_configs["model_type"][:3] == "dee":
         models = ModelFactory.create(
             model_platform=ModelPlatformType.OPENAI,
             model_type=ModelType(inference_configs["model_type"]),
+            api_key="sk-b5fa383c307e432a9210eccd18620f5e",
+            url="https://api.deepseek.com/v1"
         )
     else:
         model_urls = create_model_urls(inference_configs["server_url"])
@@ -115,22 +125,22 @@ async def running(
         ]
     twitter_task = asyncio.create_task(infra.running())
 
-    try:
-        all_topic_df = pd.read_csv("data/label_clean_v7.csv")
-        if "False" in csv_path or "True" in csv_path:
-            if "-" not in csv_path:
-                topic_name = csv_path.split("/")[-1].split(".")[0]
-            else:
-                topic_name = csv_path.split("/")[-1].split(".")[0].split(
-                    "-")[0]
-            source_post_time = all_topic_df[
-                all_topic_df["topic_name"] ==
-                topic_name]["start_time"].item().split(" ")[1]
-            start_hour = int(source_post_time.split(":")[0]) + float(
-                int(source_post_time.split(":")[1]) / 60)
-    except Exception:
-        print("No real-world data, let start_hour be 13")
-        start_hour = 13
+    # try:previous_tweets
+    #     all_topic_df = pd.read_csv("data/label_clean_v7.csv")
+    #     if "False" in csv_path or "True" in csv_path:
+    #         if "-" not in csv_path:
+    #             topic_name = csv_path.split("/")[-1].split(".")[0]
+    #         else:
+    #             topic_name = csv_path.split("/")[-1].split(".")[0].split(
+    #                 "-")[0]
+    #         source_post_time = all_topic_df[
+    #             all_topic_df["topic_name"] ==
+    #             topic_name]["start_time"].item().split(" ")[1]
+    #         start_hour = int(source_post_time.split(":")[0]) + float(
+    #             int(source_post_time.split(":")[1]) / 60)
+    # except Exception:
+    print("No real-world data, let start_hour be 13")
+    start_hour = 13
 
     model_configs = model_configs or {}
     agent_graph = await generate_agents_100w(
@@ -144,7 +154,7 @@ async def running(
     )
     # agent_graph.visualize("initial_social_graph.png")
 
-    for timestep in range(1, num_timesteps + 1):
+    for timestep in range(1, num_timesteps + 2):
         clock.time_step = timestep * 3
         social_log.info(f"timestep:{timestep}")
         db_file = db_path.split("/")[-1]
@@ -164,8 +174,8 @@ async def running(
 
             df = pd.DataFrame(test_results_list)
 
-            # Save the DataFrame as a CSV file
-            df.to_csv(f'data/test_{timestep-1}.csv', index=False)
+            # 保存到对应实验的目录
+            df.to_csv(f'{result_dir}/test_{timestep-1}.csv', index=False)
 
         await infra.update_rec_table()
         # 0.05 * timestep here means 3 minutes / timestep
@@ -174,6 +184,9 @@ async def running(
         for agent in agent_graph:
             if agent.user_info.is_controllable is False:
                 agent_ac_prob = random.random()
+                if "active_threshold" not in agent.user_info.profile["other_info"]:
+                    agent.user_info.profile["other_info"]["active_threshold"] = [0.01] * 24
+                    social_log.warning(f"创建了默认的active_threshold值")
                 threshold = agent.user_info.profile['other_info'][
                     'active_threshold'][int(simulation_time_hour % 24)]
                 if agent.social_agent_id < 10:
@@ -196,7 +209,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     os.environ["SANDBOX_TIME"] = str(0)
     if os.path.exists(args.config_path):
-        with open(args.config_path, "r") as f:
+        with open(args.config_path, "r", encoding='utf-8') as f:
             cfg = safe_load(f)
         data_params = cfg.get("data")
         simulation_params = cfg.get("simulation")

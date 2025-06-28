@@ -62,8 +62,8 @@ What do you think Helen should do?
         Choice: Answer1 or Answer2 or neutral
 """  # noqa: E501
 
-        Baseurl = "XXXXX"
-        Skey = "XXXXXX"
+        Baseurl = "https://yunwu.ai"  # Replace with your actual base URL
+        Skey = "sk-iIHNYJdJFIP96HOcbHBQtGi71s0HYLseRRMs6kZx1oLTultS"
         payload = json.dumps({
             "model":
             "gpt-4o-mini",
@@ -153,9 +153,9 @@ What do you think Helen should do?
 
 for i in range(10, 90, 10):
     print(i)
-    path1 = "path/to/the/first/round/eval.csv"
-    path2 = f"path/to/the/others/rounds/eval{i}.csv"
-    output_path = f"output{i}.csv"
+    path1 = "D:/Project/oasis/data/results/progressive/test_0.csv"
+    path2 = f"D:/Project/oasis/data/results/progressive/test_{i}.csv"
+    output_path = f"D:/Project/oasis/data/results/progressive/output{i}.csv"
     # config the log's output
     logging.basicConfig(
         filename=f"output{i}.log",  # log file name
